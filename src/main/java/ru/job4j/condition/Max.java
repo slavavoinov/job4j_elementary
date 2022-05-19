@@ -2,8 +2,7 @@ package ru.job4j.condition;
 
 public class Max {
     public static int max(int left, int right) {
-        int result = left > right ? left : right;
-        return result;
+        return left >= right ? left : right;
     }
 
     public static void main(String[] args) {
@@ -11,7 +10,7 @@ public class Max {
         System.out.println(num);
         int num1 = Max.max(100, 1);
         System.out.println(num1);
-        int num2 = Max.max(3, 3);
+        int num2 = Max.max(5, 5);
         System.out.println(num2);
     }
 }
