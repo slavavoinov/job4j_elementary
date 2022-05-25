@@ -15,11 +15,4 @@ public class CheckPrimeNumber {
         }
         return prime;
     }
-
-    public static void main(String[] args) {
-        System.out.println(CheckPrimeNumber.check(5));
-        System.out.println(CheckPrimeNumber.check(4));
-        System.out.println(CheckPrimeNumber.check(1));
-    }
-
 }
