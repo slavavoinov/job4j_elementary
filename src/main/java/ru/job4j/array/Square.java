@@ -14,5 +14,10 @@ public class Square {
         for (int i : array) {
             System.out.println(i);
         }
+        System.out.println("****************");
+        int[] array1 = calculate(3);
+        for (int i : array1) {
+            System.out.println(i);
+        }
     }
 }
