@@ -9,3 +9,4 @@ public class Triangle {
         System.out.println(Triangle.exist(2, 2, 2));
     }
 }
+

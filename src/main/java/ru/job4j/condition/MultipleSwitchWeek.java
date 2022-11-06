@@ -18,3 +18,4 @@ public class MultipleSwitchWeek {
         System.out.println(MultipleSwitchWeek.numberOfDay("Tuesday"));
     }
 }
+

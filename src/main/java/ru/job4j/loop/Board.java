@@ -20,3 +20,4 @@ public class Board {
         paint(4, 4);
     }
 }
+

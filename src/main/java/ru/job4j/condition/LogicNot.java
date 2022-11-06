@@ -40,3 +40,4 @@ public class LogicNot {
         System.out.println(result5);
     }
 }
+
